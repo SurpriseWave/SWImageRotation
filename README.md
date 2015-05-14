@@ -1,6 +1,9 @@
 # SWImageRotation
 iOS project to rotate and flip image.
 
+<img src="https://github.com/SurpriseWave/SWImageRotation/blob/master/iOS%20Simulator%20Screen%20Shot%2013-May-2015%207.29.29%20pm.png?raw=true" width=30%>
+<img src=https://github.com/SurpriseWave/SWImageRotation/blob/master/iOS%20Simulator%20Screen%20Shot%2013-May-2015%207.29.38%20pm.png?raw=true" width=30%>
+<img src="https://github.com/SurpriseWave/SWImageRotation/blob/master/iOS%20Simulator%20Screen%20Shot%2013-May-2015%207.29.45%20pm.png?raw=true" width=30%>
 ## Features:
 - Rotate Left
 - Rotate Right

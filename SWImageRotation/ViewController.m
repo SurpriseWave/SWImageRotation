@@ -35,7 +35,15 @@
 #pragma mark - Views Methods
 - (void)prepareViews
 {
-    imgvPhoto.image = [UIImage imageNamed:@"image1.jpg"];
+    NSUInteger index = arc4random_uniform(3) + 1;
+    
+    NSString *imageName = [NSString stringWithFormat:@"image%@.jpg", @(index)];
+    
+    imgvPhoto.image = [UIImage imageNamed:imageName];
+    
+//    imgvPhoto.image = [UIImage imageNamed:@"image1.jpg"];
+//    imgvPhoto.image = [UIImage imageNamed:@"image2.jpg"];
+//    imgvPhoto.image = [UIImage imageNamed:@"image3.jpg"];
     
     viewLayer.layer.borderColor = [UIColor whiteColor].CGColor;
     viewLayer.layer.borderWidth = 1.0;
